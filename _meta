@@ -1,4 +1,0 @@
-<package project="home:sage:Mer" name="python-yaml">
-  <title>YAML parser and emitter for Python</title>
-  <description>This package was branched from Trunk:Testing in order to ...</description>
-</package>
