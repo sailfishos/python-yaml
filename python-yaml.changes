@@ -1,3 +1,6 @@
+* Sun May 20 2012 D Wadsworth <letters.random13@gmail.com> - 3.0.10
+- Fixes MER#347 - update python-yaml to 3.0.10
+
 * Thu May 05 2011 Anas Nashif <anas.nashif@intel.com> - 3.09
 - Renaming packages to follow python package naming convention
 

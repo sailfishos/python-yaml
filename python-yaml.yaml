@@ -1,6 +1,6 @@
 Name: python-yaml
 Summary: YAML parser and emitter for Python
-Version: 3.09
+Version: 3.10
 Release: 1
 Group: Development/Libraries
 License: MIT
@@ -8,8 +8,6 @@ URL: http://pyyaml.org/
 Sources:
     - http://pyyaml.org/download/pyyaml/PyYAML-%{version}.tar.gz
 Provides: 
-    - PyYAML
-Obsoletes:
     - PyYAML
 
 Description: |
