@@ -9,12 +9,13 @@
 Name:       python-yaml
 Summary:    YAML parser and emitter for Python
 Version:    3.10
-Release:    1
+Release:    2
 Group:      Development/Libraries
 License:    MIT
 URL:        http://pyyaml.org/
 Source0:    http://pyyaml.org/download/pyyaml/PyYAML-%{version}.tar.gz
 Source100:  python-yaml.yaml
+Patch0:     CVE-2014-9130-invalid-key-assert.patch
 BuildRequires:  python-devel
 BuildRequires:  python-setuptools
 Provides:   PyYAML
@@ -41,6 +42,7 @@ configuration files to object serialization and persistance.
 %setup -q -n PyYAML-%{version}
 
 # >> setup
+%patch0 -p1
 # << setup
 
 %build
